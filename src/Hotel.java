@@ -1,4 +1,4 @@
-public class Hotel implements Place{
+public class Hotel implements Place {
 
     public void pack() {
         System.out.println("The order have packed into beautiful box");
@@ -9,6 +9,6 @@ public class Hotel implements Place{
     }
 
     public void cook(Meal meal) {
-        System.out.println("The " + meal.getName() + "have cooked");
+        System.out.println("The " + meal.getName() + " have cooked");
     }
 }

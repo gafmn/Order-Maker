@@ -3,12 +3,16 @@ import java.util.ArrayList;
 public class Order {
     private ArrayList<Meal> mealList;
     private Place place;
-    private double bill;
 
-    public void processing() {
-        for (Meal item : mealList)
-            place.cook(item);
-        place.pack();
-        place.deliver();
+    Order(Place place, ArrayList<Meal> mealList) {
+        this.place = place;
+        this.mealList = mealList;
+    }
+
+    public void process() {
+        for (Meal item : this.mealList)
+            this.place.cook(item);
+        this.place.pack();
+        this.place.deliver();
     }
 }
