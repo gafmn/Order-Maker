@@ -1,11 +1,11 @@
-public class Restaurant implements Place{
+public class Hotel implements Place{
 
     public void pack() {
-        System.out.println("The order have packed into huge tray");
+        System.out.println("The order have packed into beautiful box");
     }
 
     public void deliver() {
-        System.out.println("The order have delivered to the table");
+        System.out.println("The order have delivered to the room");
     }
 
     public void cook(Meal meal) {
