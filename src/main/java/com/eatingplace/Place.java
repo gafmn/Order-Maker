@@ -1,3 +1,7 @@
+package com.eatingplace;
+
+import com.meal.Meal;
+
 public interface Place {
     void pack();
 
