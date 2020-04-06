@@ -1,10 +1,15 @@
+package com.order;
+
+import com.eatingplace.Place;
+import com.meal.Meal;
+
 import java.util.ArrayList;
 
 public class Order {
     private ArrayList<Meal> mealList;
     private Place place;
 
-    Order(Place place, ArrayList<Meal> mealList) {
+    public Order(Place place, ArrayList<Meal> mealList) {
         this.place = place;
         this.mealList = mealList;
     }

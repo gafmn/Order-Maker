@@ -1,3 +1,5 @@
+package com.meal;
+
 public abstract class Meal {
     private String name;
     private double cost;
