@@ -1,4 +1,4 @@
-package com.meal;
+package meal;
 
 public class ColdDrink extends Meal {
 

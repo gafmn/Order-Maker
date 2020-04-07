@@ -1,4 +1,4 @@
-package com.meal;
+package meal;
 
 public abstract class Meal {
     private String name;

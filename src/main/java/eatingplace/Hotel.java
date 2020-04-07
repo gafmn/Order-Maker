@@ -1,6 +1,6 @@
-package com.eatingplace;
+package eatingplace;
 
-import com.meal.Meal;
+import meal.Meal;
 
 public class Hotel implements Place {
 

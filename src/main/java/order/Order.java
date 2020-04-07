@@ -1,7 +1,7 @@
-package com.order;
+package order;
 
-import com.eatingplace.Place;
-import com.meal.Meal;
+import eatingplace.Place;
+import meal.Meal;
 
 import java.util.ArrayList;
 

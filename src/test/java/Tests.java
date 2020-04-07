@@ -1,10 +1,10 @@
-import com.eatingplace.Hotel;
-import com.eatingplace.Place;
-import com.eatingplace.Restaurant;
-import com.meal.Burger;
-import com.meal.ColdDrink;
-import com.meal.Meal;
-import com.order.Order;
+import eatingplace.Hotel;
+import eatingplace.Place;
+import eatingplace.Restaurant;
+import meal.Burger;
+import meal.ColdDrink;
+import meal.Meal;
+import order.Order;
 import org.junit.Test;
 import java.util.ArrayList;
 
